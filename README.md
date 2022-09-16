@@ -13,7 +13,7 @@
    </a>
 </div>
 
-# Kurulum
+# Kuruluma
 * İlk olarak bilgisayarına [Node JS](https://nodejs.org/en/) indir.
 * Bu projeyi zip halinde indir.
 * Herhangi bir klasöre zipi çıkart.
