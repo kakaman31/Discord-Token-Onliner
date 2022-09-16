@@ -200,8 +200,8 @@ app.post("/bug", async (req, res) => {
   .setThumbnail(guild.iconURL({ dynamic: true }))
   .setTitle("Bir bug bildirildi!")
   .setDescription(`
-• Kod adı: [${code.name}](https://${conf.domain}/${code.rank}/${req.body.id})
-• Bug bildiren: ${guild.members.cache.get(req.user.id).toString()}
+• Mod Name: [${code.name}](https://${conf.domain}/${code.rank}/${req.body.id})
+• Reporting a Bug : ${guild.members.cache.get(req.user.id).toString()}
 • Bug: ${req.body.bug}
   `)
   .setColor("RED")
@@ -278,9 +278,9 @@ app.post("/sharing", async (req, res) => {
   .setThumbnail(guild.iconURL({ dynamic: true }))
   .setTitle(`${code.rank} kategorisinde bir kod paylaşıldı!`)
   .setDescription(`
-  • Kod adı: [${code.name}](https://${conf.domain}/${code.rank}/${id})
-  • Kod Açıklaması: ${code.desc}
-  • Kodu paylaşan: ${member.toString()}
+  • Mode Name: [${code.name}](https://${conf.domain}/${code.rank}/${id})
+  • Mod Description: ${code.desc}
+  • Code Sharer : ${member.toString()}
   `)
   .setColor(color)
   channel.send(embed);
