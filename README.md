@@ -1,51 +1,170 @@
-# Discord Botclub Güncel Site (NOT: Sitenin ilk hali Theark'a ait)
+Tabii, aşağıdaki örnek bir HTML ve CSS kodu kullanarak bir README.md dosyası oluşturabilirim:
 
+```html
 
- - [Discord Bot Club Güncel Sitesi](https://github.com/UtkuJS/botclub-website)
-      - [Kurulum](#kurulum)
-      - [İçerikler](#İçerikler)
-      - [İletişim](#İletişim)
-      - [FAQ](#faq)
+<!DOCTYPE html>
 
-<div align="center">
-   <a href="https://github.com/utkujs">
-      <img src="https://betaaa.has-a-hot.mom/55orRHk8J.gif">
-   </a>
-</div>
+<html lang="en">
 
-# Kurulum
-* İlk olarak bilgisayarına [Node JS](https://nodejs.org/en/) indir.
-* Bu projeyi zip halinde indir.
-* Herhangi bir klasöre zipi çıkart.
-* Daha sonra `src`dosyasındaki `Settings` dosyasının içindeki `Config.json`, `Settings.json` dosyalardaki bilgileri doldur.
-* Sonra klasörün içerisinde bir `powershell` ya da `cmd` penceresi aç.
-* ```npm install``` yazarak tüm modülleri kur.
-* Kurulum bittikten sonra ```node app.js``` yaz ve botu başlat.
+<head>
 
+  <meta charset="UTF-8">
 
-## Botun İntentlerini Açmayı Unutma!
-* [Açmak İçin Tıkla](https://discord.com/developers/applications)
-<img src="https://cdn.discordapp.com/attachments/818953120452575322/851116463166849054/3P4KKB.png"/>
+  <title>README.md | Discord Bot</title>
 
+  
 
-# İletişim
-* [Discord Profilim](https://discord.com/users/236173144300191754)
-* [Discord Sunucum](botclub.net/davet)
+  <!-- CSS dosyası -->
 
-# FAQ
-Sıkça sorulan sorulara buradan ulaşabilirsin.
+  <style>
 
-**Q:** Altyapıyı geliştirilmeye devam edilecek mi?<br />
-**A:** Eğer bir şeyler eklersem dolaylı yoldan burayada ekleyeceğim.
+    body {
 
-**Q:** İstek herhangi bir şey ekliyor musun?<br />
-**A:** Eğer istediğin şey hoşuma giderse ve yapmaktan zevk alacaksam eklerim.
+      font-family: Arial, sans-serif;
 
-**Q:** Altyapı tamamen sanamı ait?<br />
-**A:** Hayır, tamamen bana ait değil sadece bağzı yapamadığım ufak bir kısmıları hazır olarak ekledim.  
+      line-height: 1.5;
 
-**Q:** Hatalarla ilgileniyor musun?<br />
-**A:** Proje içindeki hatalarla ilgileniyorum. Eğer bir hata ile karşılaşırsanız lütfen Discorddan benimle iletişim kurun. 
+    }
 
+    
 
-## NOT: Botta MIT lisansı bulunmaktadır. Bu botun dosyalarının benden habersiz paylaşılması/satılması durumunda gerekli işlemler yapılacaktır!
+    h1, h2, h3, h4, h5, h6 {
+
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+      margin-top: 1em;
+
+      margin-bottom: 0.5em;
+
+    }
+
+    
+
+    code {
+
+      background-color: #f5f5f5;
+
+      padding: 0.25em;
+
+      border-radius: 3px;
+
+      font-family: Consolas, Monaco, 'Andale Mono', monospace;
+
+    }
+
+    
+
+    pre {
+
+      background-color: #f5f5f5;
+
+      padding: 1em;
+
+      border-radius: 3px;
+
+      overflow: auto;
+
+    }
+
+    
+
+    .container {
+
+      max-width: 800px;
+
+      margin: 0 auto;
+
+      padding: 2em;
+
+    }
+
+    
+
+    .alert {
+
+      background-color: #fdf6ec;
+
+      border: 1px solid #e2c9a8;
+
+      color: #b75e34;
+
+      padding: 1em;
+
+      margin-bottom: 1em;
+
+      border-radius: 3px;
+
+    }
+
+    
+
+    .code-block {
+
+      background-color: #f5f5f5;
+
+      border-left: 4px solid #007bff;
+
+      color: #333;
+
+      padding: 1em;
+
+      margin-bottom: 1em;
+
+      border-radius: 3px;
+
+    }
+
+    
+
+    .code-block p {
+
+      margin: 0;
+
+    }
+
+  </style>
+
+  
+
+</head>
+
+<body>
+
+  
+
+  <div class="container">
+
+    <h1>Discord Bot | Activities Update</h1>
+
+    
+
+    <p>Bu kod, Discord üzerinde birden fazla hesapla çalışan bir botun aktivitelerini belirli aralıklarla güncellemek için kullanılır. Aktiviteler, her 5 dakikada bir rastgele seçilen bir listeden alınır.</p>
+
+    
+
+    <div class="alert">
+
+      <p><strong>Not:</strong> Bu proje Node.js ile yazılmıştır ve komut satırından çalıştırılır. Bilgisayarınızda Node.js kurulu olduğundan emin olunuz. Ayrıca bu kodun doğru çalışabilmesi için npm paketlerinin yüklenmesi gerekmektedir.</p>
+
+    </div>
+
+    
+
+    <h2>Kurulum</h2>
+
+    <ol>
+
+      <li>Bu projeyi bilgisayarınıza klonlayın veya ZIP olarak indirin.</li>
+
+      <li><code>tokens.txt</code> isimli bir dosya oluşturun ve Discord botlarınızın token'larını (token başına tek satırda bir) içine yazın.</li>
+
+      <li><code>npm install</code> komutunu terminalde çalıştırarak gerekli bağımlılıkları yükleyin.</li>
+
+      <li><code>node index.js</code> komutu ile botları çalıştırmaya başlayın.</li>
+
+    </ol>
+
+    
+</body>
+ </html>
+    
