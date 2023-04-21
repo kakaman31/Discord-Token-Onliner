@@ -11,7 +11,7 @@ Bu kod, Discord üzerinde birden fazla hesapla çalışan bir botun aktiviteleri
 
 ## Kod Açıklaması
 
-Bu kod, JavaScript programlama dilinde yazılmıştır ve Node.js platformunda çalışır. Ana amaç, rastgele olarak belirlenmiş bir etkinlik listesinden her 5 dakikada bir rastgele bir etkinliği seçip botların etkinliğini güncellemektir. 
+Bu kod, JavaScript programlama dilinde yazılmıştır ve Node.js platformunda çalışır. Ana amaç, rastgele olarak belirlenmiş bir etkinlik listesinden her 5 dakikada bir rastgele bir etkinliği seçip tokenlerin etkinliğini güncellemektir. 
 
 
 ## Emeği Geçenler > THT: raunchytve
